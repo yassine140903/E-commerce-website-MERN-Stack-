@@ -21,13 +21,10 @@ const App = () => {
         <Route path="/contact" element={<Contact />} />
         <Route path="/collection" element={<Collection />} />
         <Route path="/placeorder" element={<PlaceOrder />} />
-        <Route path="/product/productId" element={<Product />} />
+        <Route path="/product/:productId" element={<Product />} />
         <Route path="/cart" element={<Cart />} />
         <Route path="/login" element={<Login />} />
         <Route path="/order" element={<Order />} />
-
-
-        {/* Add more routes as needed */}
       </Routes>
     </div>
   );
